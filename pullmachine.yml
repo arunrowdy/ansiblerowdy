@@ -1,0 +1,6 @@
+---
+#arun
+- hosts: locahost
+  tasks:
+    - name: create file
+      file: path=/home/administrator/pull.txt state=touch
